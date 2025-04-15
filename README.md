@@ -109,8 +109,6 @@ The ultimate aim is to determine the most accurate approach for forecasting vola
 
 ## Results Summary
 
-*(**Placeholder:** Populate with your precise, calculated values)*
-
 *   **Cross-Validation Performance (Mean RMSPE):**
     *   TabNet + SVM: ~0.2298 (Best fold: ~0.2236)
     *   XGBoost + GridSearch: ~0.2836 (Best fold: ~0.2796)
