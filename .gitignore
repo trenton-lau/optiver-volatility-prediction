@@ -1,0 +1,51 @@
+
+# Data files - Crucial for this project!
+*.pkl
+*.parquet
+*.csv
+# Also ignore content within these directories explicitly
+data/original/*
+data/processed/*
+# Keep the specific instruction files
+!data/README_DATA.md
+
+# Python cache/environments
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# R environment stuff (If used later)
+# .Rproj.user/
+# .Rhistory
+# .RData
+# .Ruserdata
+# renv/library/
+# !renv.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Model files saved during training
+*.zip
+*.joblib
+*.pt
+*.safetensors
+
+# Excluded Reports (since we are not copying them now)
+*.docx
+*.pptx
+reports/*
+# If reports directory needs to be tracked empty, uncomment below:
+# !reports/.gitkeep
